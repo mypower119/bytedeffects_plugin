@@ -1,0 +1,58 @@
+/* 
+  Effect.strings
+  app
+
+  Created by qun on 2021/5/24.
+  
+*/
+
+// 美颜功能
+"beauty_face_smooth"="磨皮";
+"beauty_face_whiten"="美白";
+"beauty_face_sharpen"="锐化";
+"beauty_face_brighten_eye"="亮眼";
+"beauty_face_remove_pouch"="黑眼圈";
+"beauty_face_smile_folds"="法令纹";
+"beauty_face_whiten_teeth"="白牙";
+"beauty_face_double_eyelid"="双眼皮";
+"beauty_face_eye_plump"="卧蚕";
+
+// 美形功能
+"beauty_reshape_face_overall"="瘦脸";
+"beauty_reshape_face_cut"="窄脸";
+"beauty_reshape_face_small"="小脸";
+"beauty_reshape_eye"="大眼";
+"beauty_reshape_eye_rotate"="眼角度";
+"beauty_reshape_cheek"="瘦颧骨";
+"beauty_reshape_jaw"="下颌骨";
+"beauty_reshape_nose_lean"="瘦鼻";
+"beauty_reshape_nose_long"="长鼻";
+"beauty_reshape_chin"="下巴";
+"beauty_reshape_forehead"="额头";
+"beauty_reshape_mouth_zoom"="嘴型";
+"beauty_reshape_mouth_smile"="微笑";
+
+"beauty_reshape_eye_spacing"="眼距";
+"beauty_reshape_eye_move"="眼移动";
+"beauty_reshape_mouth_move"="缩人中";
+
+// 美体功能
+"beauty_body_thin"="瘦身";
+"beauty_body_leg_long"="长腿";
+"beauty_body_leg_slim"="瘦腿";
+"beauty_body_shrink_head"="小头";
+"beauty_body_waist_slim"="瘦腰";
+"beauty_body_breast_enlarge"="丰胸";
+"beauty_body_hip_enhance"="美胯";
+"beauty_body_neck_enhance"="天鹅颈";
+"beauty_body_arm_slim"="瘦手臂";
+
+// 美妆功能
+"makeup_blusher"="腮红";
+"makeup_lip"="口红";
+"makeup_eyelash"="睫毛";
+"makeup_facial"="修容";
+"makeup_pupil"="美瞳";
+"makeup_hair"="染发";
+"makeup_eyeshadow"="眼影";
+"makeup_eyebrow"="眉毛";

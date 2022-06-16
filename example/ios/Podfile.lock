@@ -1,0 +1,98 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BytedEffectSDK (4.3.1):
+    - SSZipArchive
+  - byteplus_effects_plugin (0.0.1):
+    - AFNetworking (~> 3.2.1)
+    - DGActivityIndicatorView (= 2.1.1)
+    - Flutter
+    - KVOController (= 1.2.0)
+    - LMJDropdownMenu
+    - Mantle (= 2.1.0)
+    - Masonry (= 1.1.0)
+    - SDWebImage
+    - SSZipArchive
+    - Toast (= 4.0.0)
+    - TZImagePickerController (= 3.6.2)
+    - YYModel
+    - ZLPhotoBrowser (= 3.0.7)
+  - DGActivityIndicatorView (2.1.1)
+  - Flutter (1.0.0)
+  - KVOController (1.2.0)
+  - LMJDropdownMenu (3.0.4)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - Masonry (1.1.0)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - SSZipArchive (2.4.3)
+  - Toast (4.0.0)
+  - TZImagePickerController (3.6.2)
+  - YYModel (1.0.4)
+  - ZLPhotoBrowser (3.0.7):
+    - SDWebImage (~> 5.1.0)
+
+DEPENDENCIES:
+  - BytedEffectSDK (from `./`)
+  - byteplus_effects_plugin (from `.symlinks/plugins/byteplus_effects_plugin/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DGActivityIndicatorView
+    - KVOController
+    - LMJDropdownMenu
+    - Mantle
+    - Masonry
+    - SDWebImage
+    - SSZipArchive
+    - Toast
+    - TZImagePickerController
+    - YYModel
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  BytedEffectSDK:
+    :path: "./"
+  byteplus_effects_plugin:
+    :path: ".symlinks/plugins/byteplus_effects_plugin/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BytedEffectSDK: e200af179002467a71b92d62d8e826f3fd73b499
+  byteplus_effects_plugin: 91267bf31efa72769320fe0fd9fcbcc69b707479
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  LMJDropdownMenu: 50c74e9d50a480c290fec47eb575826861d0823b
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TZImagePickerController: e1775fedb4058b78000fb00d9f6eeaedb445a1ed
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZLPhotoBrowser: 55d631fb86eb4456230c5f8f6fd83933b9a53d21
+
+PODFILE CHECKSUM: 8f9d21e8b839a74e1c0a4d47ff74dcb44018b19c
+
+COCOAPODS: 1.11.3

@@ -26,7 +26,7 @@ BytePlus Effects Plugin
   s.dependency 'ZLPhotoBrowser', '3.0.7'
   s.dependency 'DGActivityIndicatorView', '2.1.1'
   s.dependency 'LMJDropdownMenu'
-  s.dependency 'AFNetworking', '~> 3.2.1'
+  s.dependency 'AFNetworking'
   s.dependency 'SSZipArchive'
   s.dependency 'YYModel'
   s.dependency 'SDWebImage'

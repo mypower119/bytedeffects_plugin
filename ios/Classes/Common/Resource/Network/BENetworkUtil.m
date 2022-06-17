@@ -124,7 +124,7 @@ static BENetworkUtil *sInstance = nil;
 - (id)sendPostRequestSync:(NSString*)url content:(id)content error:(NSError *__autoreleasing *)error {
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0);
     __block NSObject *data;
-    [self.manager POST:url parameters:content progress:nil
+    [self.manager POST:url parameters:content headers:nil progress:nil
                success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         data = responseObject;
         dispatch_semaphore_signal(semaphore);

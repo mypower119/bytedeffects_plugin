@@ -35,16 +35,16 @@
         return;
     }
     
-    UIAlertView* waittingAlert = [[UIAlertView alloc] initWithTitle: NSLocalizedString(@"request_license_progress", nil)
-                                               message: @""
-                                              delegate: nil
-                                     cancelButtonTitle: nil
-                                     otherButtonTitles: nil];
+//    UIAlertView* waittingAlert = [[UIAlertView alloc] initWithTitle: NSLocalizedString(@"request_license_progress", nil)
+//                                               message: @""
+//                                              delegate: nil
+//                                     cancelButtonTitle: nil
+//                                     otherButtonTitles: nil];
       
-    UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
-    activityView.frame = CGRectMake(139.0f-18.0f, 80.0f, 37.0f, 37.0f);
-    [waittingAlert addSubview:activityView];
-    [activityView startAnimating];
+//    UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+//    activityView.frame = CGRectMake(139.0f-18.0f, 80.0f, 37.0f, 37.0f);
+//    [waittingAlert addSubview:activityView];
+//    [activityView startAnimating];
       
     dispatch_queue_t licenseQueue = dispatch_queue_create("check license task", NULL);
     dispatch_async(licenseQueue, ^{
@@ -53,19 +53,19 @@
             [[BELicenseHelper shareInstance] updateLicensePath];
 
         dispatch_async(dispatch_get_main_queue(), ^{
-            if (waittingAlert != nil) {
-                [waittingAlert dismissWithClickedButtonIndex:0 animated:YES];
-            }
+//            if (waittingAlert != nil) {
+//                [waittingAlert dismissWithClickedButtonIndex:0 animated:YES];
+//            }
             if ([BELicenseHelper shareInstance].errorCode != 0) {
                 NSString* log = [BELocaleManager convertLocaleLog:[BELicenseHelper shareInstance].errorMsg];
-                UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"request_license_fail", nil) message:log delegate:self cancelButtonTitle:nil otherButtonTitles:NSLocalizedString(@"confirm", nil), nil];
-                [alertView show];
+//                UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"request_license_fail", nil) message:log delegate:self cancelButtonTitle:nil otherButtonTitles:NSLocalizedString(@"confirm", nil), nil];
+//                [alertView show];
             }
                 
         });
     });
     
-    [waittingAlert show];
+//    [waittingAlert show];
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {

@@ -155,13 +155,6 @@
     [self startViewController:config];
 }
 
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-            options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
-    NSString *scheme = [url scheme];
-    NSString *host = [url host];
-    return YES;
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = application.windows.firstObject;
